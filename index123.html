@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finansovaya Bezopasnost 10 klass | Проект Сайфуллина Тимура</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .title-font { font-family: 'Space Grotesk', sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%); }
+        .card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card:hover { transform: translateY(-12px); box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15); }
+        .section-title:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 5px;
+            background: linear-gradient(to right, #3b82f6, #60a5fa);
+            bottom: -12px;
+            left: 0;
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="bg-zinc-50 text-zinc-800">
+
+    <!-- HEADER -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-3xl text-white">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div>
+                    <h1 class="title-font text-2xl font-bold">Finansovaya Bezopasnost</h1>
+                    <p class="text-sm text-zinc-500">10 klass • Проект Сайфуллина Тимура</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex gap-8 font-medium">
+                <a href="#concept" class="hover:text-blue-600">Понятие</a>
+                <a href="#threats" class="hover:text-blue-600">Угрозы</a>
+                <a href="#scams" class="hover:text-blue-600">Примеры схем</a>
+                <a href="#principles" class="hover:text-blue-600">Принципы</a>
+                <a href="#methods" class="hover:text-blue-600">Методы</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero-bg text-white py-28">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="title-font text-5xl md:text-6xl font-bold leading-tight mb-6">
+                Методы повышения<br>личной финансовой безопасности
+            </h2>
+            <p class="text-xl text-blue-100">Finansovaya Bezopasnost 10 klass</p>
+        </div>
+    </section>
+
+    <!-- ПОНЯТИЕ -->
+    <section id="concept" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold text-center mb-12">Понятие личной финансовой безопасности</h2>
+            <div class="max-w-4xl mx-auto text-center text-lg leading-relaxed">
+                <p>Личная финансовая безопасность — это <strong>состояние защищённости финансовых интересов человека</strong>, обеспечивающее устойчивость его материального положения и возможность противостоять внешним угрозам (мошенничеству, экономическим кризисам, непредвиденным обстоятельствам).</p>
+            </div>
+
+            <h3 class="text-2xl font-semibold text-center mt-20 mb-12">Ключевые компоненты</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card bg-white p-8 rounded-3xl border">
+                    <i class="fa-solid fa-lock text-5xl text-blue-600 mb-6"></i>
+                    <h4 class="font-semibold">Физическая сохранность</h4>
+                    <p class="text-zinc-600 mt-3">Защита от кражи, потери, уничтожения наличных и безналичных активов.</p>
+                </div>
+                <div class="card bg-white p-8 rounded-3xl border">
+                    <i class="fa-solid fa-user-secret text-5xl text-blue-600 mb-6"></i>
+                    <h4 class="font-semibold">Конфиденциальность</h4>
+                    <p class="text-zinc-600 mt-3">Защита данных банковских карт, паролей, PIN-кодов и паспортных данных.</p>
+                </div>
+                <div class="card bg-white p-8 rounded-3xl border">
+                    <i class="fa-solid fa-credit-card text-5xl text-blue-600 mb-6"></i>
+                    <h4 class="font-semibold">Платёжная безопасность</h4>
+                    <p class="text-zinc-600 mt-3">Безопасное проведение транзакций (онлайн и офлайн).</p>
+                </div>
+                <div class="card bg-white p-8 rounded-3xl border">
+                    <i class="fa-solid fa-umbrella text-5xl text-blue-600 mb-6"></i>
+                    <h4 class="font-semibold">Устойчивость к потрясениям</h4>
+                    <p class="text-zinc-600 mt-3">Наличие финансовой подушки, страхование, диверсификация доходов.</p>
+                </div>
+                <div class="card bg-white p-8 rounded-3xl border lg:col-span-3">
+                    <i class="fa-solid fa-eye-slash text-5xl text-blue-600 mb-6"></i>
+                    <h4 class="font-semibold">Защита от недобросовестных практик</h4>
+                    <p class="text-zinc-600 mt-3">Умение распознавать мошеннические схемы, скрытые комиссии и невыгодные условия.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- УГРОЗЫ -->
+    <section id="threats" class="py-24 bg-zinc-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold text-center mb-16">Основные угрозы личной финансовой безопасности</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white p-10 rounded-3xl shadow">
+                    <h3 class="text-2xl font-semibold mb-8 text-red-600">1. Внешние угрозы</h3>
+                    <ul class="space-y-4">
+                        <li><strong>Финансовое мошенничество</strong> — фишинг, пирамиды, обман при покупках</li>
+                        <li><strong>Кибератаки</strong> — взлом аккаунтов, кража данных</li>
+                        <li><strong>Экономические кризисы</strong> — инфляция, девальвация, безработица</li>
+                        <li><strong>Недобросовестные организации</strong> — скрытые комиссии</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow">
+                    <h3 class="text-2xl font-semibold mb-8 text-orange-600">2. Внутренние угрозы</h3>
+                    <ul class="space-y-4">
+                        <li><strong>Отсутствие финансового планирования</strong> — импульсивные траты, долги</li>
+                        <li><strong>Низкая финансовая грамотность</strong></li>
+                        <li><strong>Излишняя доверчивость</strong></li>
+                        <li><strong>Отсутствие резервного фонда</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- РЕАЛЬНЫЕ ПРИМЕРЫ МОШЕННИЧЕСКИХ СХЕМ -->
+    <section id="scams" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold text-center mb-16">Реальные примеры мошеннических схем</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="card bg-white border p-8 rounded-3xl">
+                    <h3 class="font-semibold text-xl mb-4">1. Фишинг (поддельные сайты и письма)</h3>
+                    <p class="text-zinc-600 mb-4">Мошенники присылают SMS или письмо от «банка» и просят перейти по ссылке. Сайт выглядит как настоящий банк.</p>
+                    <p class="text-red-600 font-medium">Как защититься: Никогда не переходить по ссылкам из SMS. Заходить в банк только через официальное приложение.</p>
+                </div>
+
+                <div class="card bg-white border p-8 rounded-3xl">
+                    <h3 class="font-semibold text-xl mb-4">2. Звонок от «службы безопасности банка»</h3>
+                    <p class="text-zinc-600 mb-4">Самая массовая схема. Просят назвать код из СМС якобы для отмены операции.</p>
+                    <p class="text-red-600 font-medium">Как защититься: Настоящий банк никогда не просит коды по телефону. Просто положите трубку.</p>
+                </div>
+
+                <div class="card bg-white border p-8 rounded-3xl">
+                    <h3 class="font-semibold text-xl mb-4">3. Инвестиционное мошенничество</h3>
+                    <p class="text-zinc-600 mb-4">Обещают высокий доход (1–5% в день) через Telegram или Instagram.</p>
+                    <p class="text-red-600 font-medium">Популярные названия: Binary options, Крипто-инвестиции, ПАММ-счета.</p>
+                </div>
+
+                <div class="card bg-white border p-8 rounded-3xl">
+                    <h3 class="font-semibold text-xl mb-4">4. Обман при онлайн-покупках</h3>
+                    <p class="text-zinc-600">Продают товар сильно дешевле рынка и просят предоплату.</p>
+                </div>
+
+                <div class="card bg-white border p-8 rounded-3xl">
+                    <h3 class="font-semibold text-xl mb-4">5. Romance Scam («Мошенничество по любви»)</h3>
+                    <p class="text-zinc-600">Заводят отношения и потом просят деньги «на лечение», «на билет» и т.д.</p>
+                </div>
+
+                <div class="card bg-white border p-8 rounded-3xl">
+                    <h3 class="font-semibold text-xl mb-4">6. «Родственник попал в ДТП»</h3>
+                    <p class="text-zinc-600">Звонят с подмененного номера и просят срочно перевести деньги.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРИНЦИПЫ (ПОДРОБНЫЕ) -->
+    <section id="principles" class="py-24 bg-zinc-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="section-title text-4xl font-bold text-center mb-16">Принципы повышения личной финансовой безопасности</h2>
+            
+            <div class="space-y-12">
+                <div class="card bg-white p-9 rounded-3xl border">
+                    <h3 class="text-2xl font-semibold mb-6">1. Осведомлённость</h3>
+                    <p class="font-medium mb-4">Суть: Знание актуальных видов мошенничества и способов защиты.</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Постоянно изучать современные схемы обмана.</li>
+                        <li>Знать основные признаки мошенничества.</li>
+                        <li>Понимать, какие данные нельзя сообщать никому.</li>
+                    </ul>
+                    <p class="mt-6 text-emerald-700 font-medium">Почему важен: Без знаний даже лучшие инструменты не спасут.</p>
+                </div>
+
+                <div class="card bg-white p-9 rounded-3xl border">
+                    <h3 class="text-2xl font-semibold mb-6">2. Планирование</h3>
+                    <p class="font-medium mb-4">Суть: Составление бюджета и прогнозирование доходов и расходов.</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Вести учёт всех доходов и расходов.</li>
+                        <li>Планировать крупные покупки заранее.</li>
+                        <li>Ставить финансовые цели.</li>
+                    </ul>
+                    <p class="mt-6 text-emerald-700 font-medium">Почему важен: Снижает импульсивные траты и долги.</p>
+                </div>
+
+                <div class="card bg-white p-9 rounded-3xl border">
+                    <h3 class="text-2xl font-semibold mb-6">3. Диверсификация</h3>
+                    <p class="font-medium mb-4">Суть: Распределение средств между разными инструментами.</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Не держать всё в одном месте или валюте.</li>
+                        <li>Распределять: наличные, вклады, инвестиции.</li>
+                    </ul>
+                    <p class="mt-6 text-emerald-700 font-medium">Почему важен: Защищает от полной потери средств.</p>
+                </div>
+
+                <div class="card bg-white p-9 rounded-3xl border">
+                    <h3 class="text-2xl font-semibold mb-6">4. Резервирование</h3>
+                    <p class="font-medium mb-4">Суть: Создание финансовой подушки безопасности.</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Откладывать 10–20% дохода.</li>
+                        <li>Создать запас на 3–6 месяцев расходов.</li>
+                    </ul>
+                    <p class="mt-6 text-emerald-700 font-medium">Почему важен: Помогает пережить трудные времена без кредитов.</p>
+                </div>
+
+                <div class="card bg-white p-9 rounded-3xl border">
+                    <h3 class="text-2xl font-semibold mb-6">5. Юридическая грамотность</h3>
+                    <p class="font-medium mb-4">Суть: Знание своих прав и обязанностей.</p>
+                    <ul class="list-disc pl-6 space-y-2">
+                        <li>Внимательно читать договоры.</li>
+                        <li>Знать права потребителя.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- МЕТОДЫ -->
+    <section id="methods" class="py-24 bg-zinc-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="section-title text-white text-4xl font-bold text-center mb-16">Основные методы повышения финансовой безопасности</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">1. Цифровая безопасность</h3>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li>Уникальные сложные пароли + двухфакторная аутентификация</li>
+                        <li>Антивирус и регулярные обновления</li>
+                        <li>Критическое восприятие информации</li>
+                        <li>Отдельные карты для онлайн-покупок</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">2. Организационные и правовые методы</h3>
+                    <ul class="space-y-4 text-zinc-300">
+                        <li>Ведение бюджета и финансовое планирование</li>
+                        <li>Создание резервного фонда (10–20% дохода)</li>
+                        <li>Внимательное изучение договоров</li>
+                        <li>Страхование и повышение грамотности</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ВЫВОД -->
+    <section id="conclusion" class="py-28 bg-gradient-to-br from-slate-900 to-blue-950 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-5xl font-bold mb-12">Вывод</h2>
+            <div class="space-y-8 text-lg">
+                <p>Личная финансовая безопасность — это комплексный процесс, требующий систематического контроля над финансами, знаний о современных угрозах и применения технических и правовых инструментов защиты.</p>
+                <p>Эффективность методов зависит от регулярности их использования и уровня финансовой дисциплины.</p>
+                <div class="italic text-2xl bg-white/10 p-12 rounded-3xl border border-white/20">
+                    Итог: осознанный подход к управлению личными финансами снижает риски потерь и создаёт основу для стабильного материального будущего.
+                </div>
+            </div>
+            <p class="mt-12 text-blue-300">— Проект 10 класс Сайфуллина Тимура</p>
+        </div>
+    </section>
+
+    <footer class="bg-zinc-900 text-zinc-400 py-12 text-center">
+        <p>Finansovaya Bezopasnost 10 klass • 2026</p>
+    </footer>
+</body>
+</html>
